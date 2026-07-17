@@ -77,7 +77,7 @@ def predict_risk(data: KuisInput):
         }
     }
 
-# Endpoint testing sederhana untuk memastikan server hidup
+# Endpoint testing 
 @app.get("/")
 def index():
     return {"message": "Server TreeHealthy Backend is Running!"}
